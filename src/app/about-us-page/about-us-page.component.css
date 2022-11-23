@@ -3,7 +3,7 @@ nav{
     /* justify-content: flex-end; */
     flex-wrap: wrap;
     
-    background-image: linear-gradient(180deg,#14444bc0, #14444bec, #14444ba1 ),url('/assets/images/landing-page/students.jpg');
+    background-image: linear-gradient(#14444bc0, #14444bc0 ),url('/assets/images/landing-page/students.jpg');
     background-position: center;
     background-size: cover;
     justify-content: space-between;

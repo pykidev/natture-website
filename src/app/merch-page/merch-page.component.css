@@ -3,8 +3,8 @@ nav{
     /* justify-content: flex-end; */
     flex-wrap: wrap;
     
-    background-image: linear-gradient(180deg,#14444bc0, #14444b, #14444ba1 ),url('/assets/index.jpeg');
-    background-position: center;
+    background-image: linear-gradient(#14444bdd, #14444bcd ),url('/assets/index.jpeg');
+    background-position: 50% 35%;
     background-size: auto;
     justify-content: space-between;
     align-items: center;
