@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    --primary-color: #14444b;
+    --complementary-color: #18c40b;
+    --accent-color: white;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    /* padding: 0.5rem; */
+    /* height: 100vh; */
+}

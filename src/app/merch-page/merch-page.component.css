@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+    background-image: linear-gradient(180deg,#14444bc0, #14444b, #14444ba1 ),url('/assets/index.jpeg');
+    background-position: center;
+    background-size: auto;
+
+}
+nav p{
+    flex-basis: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5rem;
+    font-size: 45px;
+    color: var(--complementary-color);
+}
+
+.merch{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us-card{
+    padding: 2rem;
+    color: var(--primary-color);
+    font-size: 25px;
+}
+
+.contact-us-card button a{
+    text-decoration: none;
+}
+
+.contact-us-card button{
+    color: var(--accent-color);
+    border: none;
+    background-color: var(--complementary-color);
+    padding: 0.7rem;
+    font-size: 16px;
+
+}
