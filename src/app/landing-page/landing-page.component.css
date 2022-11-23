@@ -13,12 +13,12 @@ nav{
     padding-left: 0.7rem;
 }
 .hero .hero-copy{
-    line-height: 125%;
+    /* line-height: 125%; */
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* padding-left: 1.5rem; */
+    justify-content: flex-start;
+    padding-top: 7rem;
     height: 100%;
 }
 
@@ -88,9 +88,11 @@ div{
     display: flex;
     align-items: center; 
 }
+
 .logo{
     padding: 0;
 }
+
 nav .logo img{
     width: 50px;
     height: 50px;
@@ -116,6 +118,8 @@ nav .logo img{
     .hero .hero-copy{
         flex-basis: 45%;
         padding-top: 5rem;
+        padding-left: 1.5rem;
+        justify-content: center;
     }
     .hero .hero-copy p{
         line-height: 20pt;
