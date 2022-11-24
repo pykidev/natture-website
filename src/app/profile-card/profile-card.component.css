@@ -1,0 +1,50 @@
+.profile{
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+    line-height: 23pt;
+
+}
+.profile img{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile .profile-info{
+    padding: 2rem 1.5rem;
+}
+
+.profile .profile-info p:nth-child(1){
+    font-size: 25px;
+}
+
+@media screen and (min-width: 560px) {
+    .profile{
+        /* flex-basis: 50%; */
+        height: 250px;
+        width: 250px;
+        align-items: flex-end;
+        background-color: black;
+        margin: 1rem 1rem;
+        /* transition: all 4s ease-in-out; */
+    }
+    .profile .profile-info{
+        display: none;
+        
+    }
+
+    .profile img{
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile:hover img{
+        display: none;
+    }
+
+    .profile:hover .profile-info{
+        display: block;
+        /* background-color: red; */
+    }
+}

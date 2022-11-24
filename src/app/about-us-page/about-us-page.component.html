@@ -7,4 +7,46 @@
         About Us
     </p>
 </nav>
-<p>about-us-page works!</p>
+<div class="our-story">
+    <div class="our-story-copy">
+        <p>Our Story</p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Et sapiente voluptas, nobis, ea qui maiores autem excepturi 
+            nam inventore exercitationem quidem! 
+            Nihil sed vitae reprehenderit laboriosam repudiandae dolor libero ullam!
+        </p>
+    </div>
+    <img src="/assets/images/landing-page/students.jpg" alt="">
+</div>
+<div class="natture-acronym">
+    <p>natture is an acronym</p>
+    <p>
+        May be wondering why we've been spelling "natture" as it is and not "nature".
+        <br>Believe it or not its an acronym for <span>n</span>,<span>a</span>,<span>t</span>,
+        <br><span>t</span>,<span>u</span>,<span>r</span>,<span>e</span>
+    </p>
+</div>
+<img src="/assets/images/landing-page/students2.jpg" alt="">
+<div class="our-mission">
+    <div class="our-mission-copy">
+        <p>Our Mission</p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Et sapiente voluptas, nobis, ea qui maiores autem excepturi 
+            nam inventore exercitationem quidem! 
+            Nihil sed vitae reprehenderit laboriosam repudiandae dolor libero ullam!
+        </p>
+    </div>
+    <img src="/assets/images/landing-page/students2.jpg" alt="">
+</div>
+<div class="the-team">
+    <div class="the-team-copy">
+        <p>The Team</p>
+        <p>Here a few of the individuals that are part and have contributed immensely to our successes in this venture of ours.</p>
+        <div class="profiles">
+            <app-profile-card *ngFor="let member of teamMembers" [name]="member.name" [position]="member.position" [imageUrl]="member.imageUrl"></app-profile-card>
+
+        </div>
+    </div>
+</div>

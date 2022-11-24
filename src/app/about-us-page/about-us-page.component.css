@@ -27,3 +27,79 @@ nav .logo img{
     width: 50px;
     height: 50px;
 }
+
+div{
+    padding: 2rem 0.7rem;
+}
+
+.our-story>img, .our-mission>img, .the-team>img{
+    display: none;
+}
+
+img{
+    width: 100%;
+}
+.our-story, .our-mission{
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.our-story p:nth-child(1), .natture-acronym p:nth-child(1), .our-mission p:nth-child(1), .the-team p:nth-child(1){
+    font-size: 35px;
+    color: var(--complementary-color);
+}
+.natture-acronym{
+    padding: 4rem 1.4rem;
+}
+.natture-acronym p:nth-child(2) span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--complementary-color);
+}
+
+@media screen and (min-width: 720px) {
+    img{
+        display: none;
+    }
+
+    div{
+        padding-top: 1.5rem ;
+        padding-bottom: 1.5rem;
+    }
+    .our-story{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: row-reverse; */
+        align-items: center;
+        padding: 5rem 0.5rem;
+    }
+    .our-mission{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 5rem 0.5rem;
+    }
+    .our-mission img, .our-story img{
+        display: block;
+        width: 50%;
+        margin-right: 3rem;
+        /* border:1px solid whitesmoke; */
+        box-shadow: 61px 40px 0px lightgray;
+
+    }
+    .our-mission img{
+        margin-left: 3rem;
+        box-shadow: -61px 40px 0px lightgray;
+    }
+    .our-mission .our-mission-copy, .our-story .our-story-copy{
+        flex-basis: 50%;
+        margin: 1rem;
+    }
+    .profiles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+}
