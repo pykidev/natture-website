@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-merch-card',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./merch-card.component.css']
 })
 export class MerchCardComponent implements OnInit {
-
+  @Input() productName !: string;
+  @Input() productPrice !: number;
+  @Input() imageUrl !: string;
   constructor() { }
 
   ngOnInit(): void {

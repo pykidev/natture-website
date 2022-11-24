@@ -8,15 +8,10 @@
     </p>
 </nav>
 <div class="merch">
-    <app-merch-card></app-merch-card>
-    <app-merch-card></app-merch-card>
-    <app-merch-card></app-merch-card>
+    <app-merch-card *ngFor = "let product of products" [productName]="product.name" [productPrice]="product.price" [imageUrl]="product.image"></app-merch-card>
     <div class="contact-us-card">
         <p>
-            Interested in any of the merch shown here
-            <button>
-                <a href="">Contact Us</a>
-            </button>
+            Interested in any of the merch shown here contact us the links below.
         </p>
     </div>
 </div>

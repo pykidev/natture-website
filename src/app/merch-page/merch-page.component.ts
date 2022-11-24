@@ -6,7 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./merch-page.component.css']
 })
 export class MerchPageComponent implements OnInit {
-
+  public products = [
+    {
+      name:"Natture Foundation Hoodie",
+      price: 40000,
+      image: "/assets/images/merch-page/hoodie.jpg"
+    },
+    {
+      name:"Natture Foundation Cap",
+      price: 15000,
+      image: "/assets/images/merch-page/cap.jpg"
+    },
+  ];
   constructor() { }
 
   ngOnInit(): void {
